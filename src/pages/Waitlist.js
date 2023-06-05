@@ -10,6 +10,7 @@ import step2 from "../assets/step2.png"
 import step3 from "../assets/step 3.png"
 import step4 from "../assets/step 4.png"
 import step5 from "../assets/step 5.png"
+import ActionButton from '../components/ActionButton';
 
 class Waitlist extends Component {
     render() {
@@ -35,6 +36,7 @@ class Waitlist extends Component {
                                 <p className="info">everything you've been dreaming of and more. We're talking sleek</p>
                                 <p className="info">design, intuitive features, and a user-friendly experience that'll</p>
                                 <p className="info">make your daily commute a breeze.</p>
+                                <ActionButton />
                             </div>
                         </div>
                         <div>
