@@ -153,10 +153,11 @@ span {
   display: flex;
   justify-content: center;
   padding-top: 2%;
+
 }
 
 .steps {
-  padding-top: 8%;
+  padding-top: 4%;
   display: flex; 
   justify-content: center;
 }
@@ -179,6 +180,12 @@ span {
   background: linear-gradient(0.25turn, #56C7CF, #FF48B6);
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+.actBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footerinfo {
@@ -211,6 +218,20 @@ span {
 
 .step {
   margin-left: 40px;
+  padding-bottom: 20px;
+}
+
+#step3 {
+  padding-top: 80px;
+}
+#step4 {
+  padding-top: 50px;
+}
+#step5 {
+  padding-top: 160px;
+}
+#step6 {
+  padding-top: 100px;
 }
 
 .descp {

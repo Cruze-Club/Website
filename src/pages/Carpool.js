@@ -7,6 +7,7 @@ import uzer from "../assets/uzer.png";
 import club from "../assets/clubs.png";
 import apple from "../assets/appstore.png";
 import google from "../assets/googleplay.png";
+import cc from "../assets/cc.png";
 
 class Carpool extends Component {
   render() {
@@ -38,7 +39,6 @@ class Carpool extends Component {
 
             </div>
           </div>
-
           <div className="section2">
             <div className="cards">
               <div className="card">
@@ -81,9 +81,7 @@ class Carpool extends Component {
               <div className="slogan">
                 <h1>Cruzer</h1>
               </div>
-              <div className="slogan">
-                <p className="titletxt">is the future</p>
-              </div>
+             
               <div className="info">
                 <p className="info">Cutting your daily commute cost down by 60%-70%, </p>
                 <p className="info">using the power of sharing economy, Cruze offers its </p>
@@ -127,6 +125,7 @@ class Carpool extends Component {
               <img src={uzer} alt="" />
             </div>
           </div>
+          
           <div className="section1">
             <div className="Image">
               <img src={club} alt="" />
@@ -152,6 +151,36 @@ class Carpool extends Component {
 
             </div>
 
+          </div>
+          <div className="section1">
+
+            <div className="title2">
+
+              <div className="slogan">
+                <h1>Cruze Coin</h1>
+              </div>
+
+              <div className="info">
+                <p className="info">Expensive private rides everyday just to get to office, </p>
+                <p className="info">university or your society? Forget the old ways of </p>
+                <p className="info">commute and join the relevant club and start </p>
+                <p className="info">carpooling. </p>
+                <p className="info">Secure and managed communities that allow you to</p>
+                <p className="info">carpool with people you know. Simply post your route in </p>
+                <p className="info">a club and get auto matches from Cruzers on your  </p>
+                <p className="info">route.</p>
+                <p className="info">Download the app today and start saving upto 50% on </p>
+                <p className="info">your daily commute prices.</p>
+                <img src={apple} className='logo' alt="" />
+                <img src={google} className='logo' alt="" />
+
+              </div>
+              <div className="stores">
+              </div>
+            </div>
+            <div>
+              <img src={cc} alt="" />
+            </div>
           </div>
         <Footer />
         </div>
