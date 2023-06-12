@@ -1,12 +1,8 @@
-
-import Spline from '@splinetool/react-spline';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import DownArrow from '@mui/icons-material/KeyboardArrowDownRounded';
 import React, { Component } from 'react';
-import Waitlist from "./Waitlist";
 import Navbar from "../components/Navbar";
-import Carpool from './Carpool';
-import About from './About';
+
 
 class Home extends Component {
     render() {

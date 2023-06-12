@@ -1,8 +1,3 @@
-import logo from './././assets/logo.png'
-import './App.css';
-import Spline from '@splinetool/react-spline';
-import { Outlet, Link } from "react-router-dom";
-import DownArrow from '@mui/icons-material/KeyboardArrowDownRounded';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Waitlist from "./pages/Waitlist";
 import Carpool from './pages/Carpool';

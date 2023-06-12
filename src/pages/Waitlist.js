@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import StepsImg from "../assets/steps.png";
-import { Link } from "react-router-dom";
-import DownArrow from '@mui/icons-material/KeyboardArrowDownRounded';
 import Footer from '../components/Footer';
 import apple from "../assets/appstore.png"
 import google from "../assets/googleplay.png"
