@@ -7,7 +7,6 @@ import google from "../assets/googleplay.png"
 import step2 from "../assets/step2.png"
 import step3 from "../assets/step 3.png"
 import step4 from "../assets/step 4.png"
-import step5 from "../assets/step 5.png"
 import ActionButton from '../components/ActionButton';
 
 class Waitlist extends Component {
@@ -40,7 +39,8 @@ class Waitlist extends Component {
                             </div>
                         </div>
                         <div>
-                            <iframe className="spline-logo" src='https://my.spline.design/iphone14procopy-d3bd75db7f324a56cc7bd9bab5c0774b/' frameborder='0' width='100%' height='100%'></iframe>
+                            <iframe title="http://cruze.club"
+                            className="spline-logo" src='https://my.spline.design/iphone14procopy-d3bd75db7f324a56cc7bd9bab5c0774b/' frameborder='0' width='100%' height='100%'></iframe>
                         </div>
                     </div>
 

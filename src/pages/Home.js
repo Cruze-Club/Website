@@ -27,7 +27,7 @@ class Home extends Component {
                             </div>
                         </div>
                         <div>
-                            <iframe className="spline-logo" src='https://my.spline.design/untitled-5bbcaff412eec1d5dde9cdd87f4ce2cc/' frameborder='0' width='100%' height='100%'></iframe>
+                            <iframe title="http://cruze.club" className="spline-logo" src='https://my.spline.design/untitled-5bbcaff412eec1d5dde9cdd87f4ce2cc/' frameborder='0' width='100%' height='100%'></iframe>
                         </div>
                     </div>
                     <div className="downarrow">
