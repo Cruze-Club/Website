@@ -7,8 +7,8 @@ import Navbar from "../components/Navbar";
 class Home extends Component {
     render() {
         return (
-       <><Navbar/>
-       <div className="body">
+            <><Navbar />
+                <div className="body">
                     <div className="section1">
                         <div className="title">
                             <div className="slogan">
@@ -20,7 +20,7 @@ class Home extends Component {
                                 <h1>routes</h1>
                             </div>
                             <div className="info">
-                                <p className="info">Welcome to <span>Cruze</span>, the carpooling application designed </p>
+                                <p className="info">Welcome to <span>Cruze</span>the carpooling application designed </p>
                                 <p className="info">specifically for the new age. </p>
                                 <p className="info">Say goodbye to your daily commute woes and hello to a </p>
                                 <p className="info">smarter, more sustainable way to travel.</p>
@@ -30,13 +30,14 @@ class Home extends Component {
                             <iframe title="http://cruze.club" className="spline-logo" src='https://my.spline.design/untitled-5bbcaff412eec1d5dde9cdd87f4ce2cc/' frameborder='0' width='100%' height='100%'></iframe>
                         </div>
                     </div>
-                    <div className="downarrow">
-                    <Link to='/waitlist'>
-                            <DownArrow className="downarrow" style={{ fontSize: "60px" }} />
-                        </Link>
-                    </div>
-                </div></>
-    );
+                        <div className="downarrow">
+                            <Link to='/waitlist'>
+                                <DownArrow className="downarrow" style={{ fontSize: "60px" }} />
+                            </Link>
+                        </div>
+                </div>
+            </>
+        );
     }
 }
 

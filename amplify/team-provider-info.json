@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cruzewebsite-dev-80817-authRole",
+      "UnauthRoleArn": "arn:aws:iam::304608670180:role/amplify-cruzewebsite-dev-80817-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::304608670180:role/amplify-cruzewebsite-dev-80817-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-cruzewebsite-dev-80817-deployment",
+      "UnauthRoleName": "amplify-cruzewebsite-dev-80817-unauthRole",
+      "StackName": "amplify-cruzewebsite-dev-80817",
+      "StackId": "arn:aws:cloudformation:ap-south-1:304608670180:stack/amplify-cruzewebsite-dev-80817/62673440-08ce-11ee-b88a-069760dee42a",
+      "AmplifyAppId": "d3rb0cjv86cxca"
+    }
+  }
+}

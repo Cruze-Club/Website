@@ -8,7 +8,13 @@ background-color: #0e0e0e;
   margin-bottom: 0px;
   display: flex; 
   justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
 }
+
 
 .nav-logo {
   height: 69px;
@@ -21,6 +27,10 @@ ol {
   margin: 0;
   padding: 0;
   display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 li {
@@ -75,6 +85,11 @@ a:hover{
   align-items: center;
   height: 10%;
   background-color: rgba(255, 255, 255, 0);
+
+  @media only screen and (max-width: 768px) {
+    font-size: 36px;
+    
+  }
 }
 
 h1 {
@@ -89,6 +104,10 @@ h1 {
   font-size: 36px;
   padding-bottom: 0px;
   background-color: rgba(255, 255, 255, 0);
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+    
+  }
 }
 
 .info {
@@ -96,7 +115,14 @@ h1 {
   font-size: 24px;
   height: 10px;
   background-color: rgba(255, 255, 255, 0);
-  display: block;
+  display: flex;
+  flex-direction: column;
+  
+  @media only screen and (max-width: 768px) {
+    height: 30%;
+    font-size: 18px;
+  }
+
 }
 
 .section1 {
@@ -105,7 +131,12 @@ h1 {
   width: 100%;
   height: 110%;
 
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    
+  }
 }
+
 
 .Image {
   display: flex;
@@ -122,6 +153,10 @@ h1 {
 .spline-logo{
   width: 160%;
   background-color: #ffffff02;  
+  @media only screen and (max-width: 768px) {
+    display: none;
+    
+  }
 }
 
 @keyframes updown {
@@ -153,6 +188,10 @@ span {
   display: flex;
   justify-content: center;
   padding-top: 2%;
+  @media only screen and (max-width: 768px) {
+    
+    font-size: 18px;
+  }
 
 }
 
