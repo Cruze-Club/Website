@@ -40,15 +40,15 @@ class Waitlist extends Component {
                         </div>
                         <div>
                             <iframe title="http://cruze.club"
-                            className="spline-logo" src='https://my.spline.design/iphone14procopy-d3bd75db7f324a56cc7bd9bab5c0774b/' frameborder='0' width='100%' height='100%'></iframe>
+                                className="spline-logo" src='https://my.spline.design/iphone14procopy-d3bd75db7f324a56cc7bd9bab5c0774b/' frameborder='0' width='100%' height='100%'></iframe>
                         </div>
                     </div>
-
                     <div className="getstarted">
                         <h1 className="gettingS">
                             getting started...
                         </h1>
                     </div>
+
 
                     <div className="steps">
                         <div className="steps-img">
