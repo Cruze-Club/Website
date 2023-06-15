@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import DownArrow from '@mui/icons-material/KeyboardArrowDownRounded';
 import React, { Component } from 'react';
 import Navbar from "../components/Navbar";
-
+import './assets/css/fonts.css';
 
 class Home extends Component {
     render() {
