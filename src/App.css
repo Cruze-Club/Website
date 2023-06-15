@@ -55,6 +55,7 @@ a:hover{
 }
 
 .body {
+  font-family: 'Poppins', sans-serif;
   margin-top: 0;
   height: 60vh;
   margin: 96px;
@@ -97,6 +98,7 @@ a:hover{
 
 h1 {
   color: #FF48B6;
+  font-family: 'Poppins', sans-serif;
   padding-bottom: 0px;
   background-color: rgba(255, 255, 255, 0);
 }
