@@ -5,9 +5,8 @@ import carpool from "../assets/carpool.png";
 import cruzer from "../assets/cruzer.png";
 import uzer from "../assets/uzer.png";
 import club from "../assets/clubs.png";
-import apple from "../assets/appstore.png";
-import google from "../assets/googleplay.png";
 import cc from "../assets/cc.png";
+
 
 class Carpool extends Component {
   render() {
@@ -17,7 +16,7 @@ class Carpool extends Component {
         <div className="body">
           <div className="section1">
             <div >
-              <img src={carpool} alt="" />
+              <img src={carpool} alt=""/>
             </div>
             <div className="title2">
               <div className="slogan">
@@ -27,12 +26,12 @@ class Carpool extends Component {
                 <p className="titletxt">is the future</p>
               </div>
               <div className="info">
-                <p className="info">Cutting your daily commute cost down by 60%-70%, </p>
-                <p className="info">using the power of sharing economy, Cruze offers its </p>
-                <p className="info">users a carpooling solution like no other.</p>
-                <p className="info">Now travel with the people you know and trust to all</p>
-                <p className="info">of your regular destinations with ease in less than </p>
-                <p className="info">half the cost.</p>
+                <p >Cutting your daily commute cost down by 60%-70%, </p>
+                <p >using the power of sharing economy, Cruze offers its </p>
+                <p >users a carpooling solution like no other.</p>
+                <p >Now travel with the people you know and trust to all</p>
+                <p >of your regular destinations with ease in less than </p>
+                <p >half the cost.</p>
               </div>
             </div>
             <div>
@@ -83,12 +82,12 @@ class Carpool extends Component {
               </div>
              
               <div className="info">
-                <p className="info">Cutting your daily commute cost down by 60%-70%, </p>
-                <p className="info">using the power of sharing economy, Cruze offers its </p>
-                <p className="info">users a carpooling solution like no other.</p>
-                <p className="info">Now travel with the people you know and trust to all</p>
-                <p className="info">of your regular destinations with ease in less than </p>
-                <p className="info">half the cost.</p>
+                <p >Cutting your daily commute cost down by 60%-70%, </p>
+                <p >using the power of sharing economy, Cruze offers its </p>
+                <p >users a carpooling solution like no other.</p>
+                <p >Now travel with the people you know and trust to all</p>
+                <p >of your regular destinations with ease in less than </p>
+                <p >half the cost.</p>
               </div>
             </div>
             <div>
@@ -104,18 +103,17 @@ class Carpool extends Component {
               </div>
 
               <div className="info">
-                <p className="info">Expensive private rides everyday just to get to office, </p>
-                <p className="info">university or your society? Forget the old ways of </p>
-                <p className="info">commute and join the relevant club and start </p>
-                <p className="info">carpooling. </p>
-                <p className="info">Secure and managed communities that allow you to</p>
-                <p className="info">carpool with people you know. Simply post your route in </p>
-                <p className="info">a club and get auto matches from Cruzers on your  </p>
-                <p className="info">route.</p>
-                <p className="info">Download the app today and start saving upto 50% on </p>
-                <p className="info">your daily commute prices.</p>
-                <img src={apple} className='logo' alt="" />
-                <img src={google} className='logo' alt="" />
+                <p >Expensive private rides everyday just to get to office, </p>
+                <p >university or your society? Forget the old ways of </p>
+                <p >commute and join the relevant club and start </p>
+                <p >carpooling. </p>
+                <p >Secure and managed communities that allow you to</p>
+                <p >carpool with people you know. Simply post your route in </p>
+                <p >a club and get auto matches from Cruzers on your  </p>
+                <p >route.</p>
+                <p >Download the app today and start saving upto 50% on </p>
+                <p >your daily commute prices.</p>
+                
 
               </div>
               <div className="stores">
@@ -137,16 +135,16 @@ class Carpool extends Component {
               </div>
 
               <div className="info">
-                <p className="info">Expensive private rides everyday just to get to office, </p>
-                <p className="info">university or your society? Forget the old ways of </p>
-                <p className="info">commute and join the relevant club and start </p>
-                <p className="info">carpooling. </p>
-                <p className="info">Secure and managed communities that allow you to</p>
-                <p className="info">carpool with people you know. Simply post your route in </p>
-                <p className="info">a club and get auto matches from Cruzers on your  </p>
-                <p className="info">route.</p>
-                <p className="info">Download the app today and start saving upto 50% on </p>
-                <p className="info">your daily commute prices.</p>
+                <p >Expensive private rides everyday just to get to office, </p>
+                <p >university or your society? Forget the old ways of </p>
+                <p >commute and join the relevant club and start </p>
+                <p >carpooling. </p>
+                <p >Secure and managed communities that allow you to</p>
+                <p >carpool with people you know. Simply post your route in </p>
+                <p >a club and get auto matches from Cruzers on your  </p>
+                <p >route.</p>
+                <p >Download the app today and start saving upto 50% on </p>
+                <p >your daily commute prices.</p>
               </div>
 
             </div>
@@ -161,18 +159,17 @@ class Carpool extends Component {
               </div>
 
               <div className="info">
-                <p className="info">Expensive private rides everyday just to get to office, </p>
-                <p className="info">university or your society? Forget the old ways of </p>
-                <p className="info">commute and join the relevant club and start </p>
-                <p className="info">carpooling. </p>
-                <p className="info">Secure and managed communities that allow you to</p>
-                <p className="info">carpool with people you know. Simply post your route in </p>
-                <p className="info">a club and get auto matches from Cruzers on your  </p>
-                <p className="info">route.</p>
-                <p className="info">Download the app today and start saving upto 50% on </p>
-                <p className="info">your daily commute prices.</p>
-                <img src={apple} className='logo' alt="" />
-                <img src={google} className='logo' alt="" />
+                <p >Expensive private rides everyday just to get to office, </p>
+                <p >university or your society? Forget the old ways of </p>
+                <p >commute and join the relevant club and start </p>
+                <p >carpooling. </p>
+                <p >Secure and managed communities that allow you to</p>
+                <p >carpool with people you know. Simply post your route in </p>
+                <p >a club and get auto matches from Cruzers on your  </p>
+                <p >route.</p>
+                <p >Download the app today and start saving upto 50% on </p>
+                <p >your daily commute prices.</p>
+                
 
               </div>
               <div className="stores">

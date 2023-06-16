@@ -28,17 +28,17 @@ class Waitlist extends Component {
                                 <p className="titletxt">today</p>
                             </div>
                             <div className="info">
-                                <p className="info">We know that waiting isn't always fun, but we promise it'll be worth</p>
-                                <p className="info">it. Our team is hard at work making sure that the <span>Cruze</span> app is</p>
-                                <p className="info">everything you've been dreaming of and more. We're talking sleek</p>
-                                <p className="info">design, intuitive features, and a user-friendly experience that'll</p>
-                                <p className="info">make your daily commute a breeze.</p>
+                                <p >We know that waiting isn't always fun, but we promise it'll be worth</p>
+                                <p >it. Our team is hard at work making sure that the <span>Cruze</span> app is</p>
+                                <p >everything you've been dreaming of and more. We're talking sleek</p>
+                                <p >design, intuitive features, and a user-friendly experience that'll</p>
+                                <p >make your daily commute a breeze.</p>
                                 <div className="actBtn">
                                     <ActionButton />
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className='model'>
                             <iframe title="http://cruze.club"
                                 className="spline-logo" src='https://my.spline.design/iphone14procopy-d3bd75db7f324a56cc7bd9bab5c0774b/' frameborder='0' width='100%' height='100%'></iframe>
                         </div>
