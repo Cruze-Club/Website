@@ -8,6 +8,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
@@ -16,7 +17,9 @@ function Footer() {
             <div className="border"></div>
             <div className="footer-contents">
                 <div className="col1">
-                    <img className="nav-logo" src={logo} alt="" />
+                    <Link to="/">
+                        <img className="nav-logo" src={logo} alt="" />
+                    </Link>
                     <p className='footerinfo'>© 2023 Cruze Carpooling Services PVT LTD </p>
                     <p className='footerinfo'>All rights reserved.</p>
                     <p className='footerinfo-2'>All trademarks, logos and brand names are</p>
@@ -31,11 +34,21 @@ function Footer() {
                         <img src={google} className='logo' alt="" />
                     </div>
                     <div className="links">
-                    <FacebookIcon className="links" style={{ fontSize: "42px" }} />
-                    <YouTubeIcon className="links" style={{ fontSize: "42px" }} />
-                    <TwitterIcon className="links" style={{ fontSize: "42px" }} />
-                    <InstagramIcon className="links" style={{ fontSize: "42px" }} />
-                    <LinkedInIcon className="links" style={{ fontSize: "42px" }} />
+                        <Link to="https://www.facebook.com/profile.php?id=100089832060209">
+                            <FacebookIcon className="links" style={{ fontSize: "42px" }} />
+                        </Link>
+                        <Link to="https://www.instagram.com/cruzepakistan/">
+                            <YouTubeIcon className="links" style={{ fontSize: "42px" }} />
+                        </Link>
+                        <Link to="https://www.instagram.com/cruzepakistan/">
+                            <TwitterIcon className="links" style={{ fontSize: "42px" }} />
+                        </Link>
+                        <Link to="https://www.instagram.com/cruzepakistan/">
+                            <InstagramIcon className="links" style={{ fontSize: "42px" }} />
+                        </Link>
+                        <Link to="https://www.linkedin.com/company/88400898/">
+                            <LinkedInIcon className="links" style={{ fontSize: "42px" }} />
+                        </Link>
                     </div>
                 </div>
             </div>
