@@ -117,6 +117,9 @@ h1 {
   }
 }
 
+.model{
+  height: 100%;
+}
 .model2{
   height: 100%;
   width: 32%;
