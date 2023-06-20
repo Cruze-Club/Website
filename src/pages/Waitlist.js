@@ -15,7 +15,7 @@ class Waitlist extends Component {
             <>
                 <Navbar />
                 <div className="body">
-                    <div className="section1">
+                    <div className="section3">
                         <div className="title">
                             <div className="slogan">
                                 <p className="titletxt">get     on</p>
@@ -38,9 +38,9 @@ class Waitlist extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='model'>
+                        <div className='model2'>
                             <iframe title="http://cruze.club"
-                                className="spline-logo" src='https://my.spline.design/iphone14procopy-d3bd75db7f324a56cc7bd9bab5c0774b/' frameborder='0' width='100%' height='100%'></iframe>
+                                className="spline-logo" src='https://my.spline.design/iphone14procopy-d3bd75db7f324a56cc7bd9bab5c0774b/' frameborder='0' width='150%' height='100%'></iframe>
                         </div>
                     </div>
                     <div className="getstarted">
