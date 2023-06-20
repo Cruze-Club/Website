@@ -10,7 +10,7 @@ class About extends Component {
           <Navbar />
           <div className="section">
             <h1>Our Vision</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi aliquid explicabo animi voluptatibus? Quia exercitationem nobis quae nesciunt culpa sit? Voluptate nam vero consequuntur officia iure delectus eaque. Soluta, dolor quia placeat aliquam optio dolorum quaerat recusandae officia error minima, et veniam rerum magnam eos voluptates cum quod voluptatem saepe.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi aliquid explicabo animi voluptatibus? Quia exercitationem nobis qzuae nesciunt culpa sit? Voluptate nam vero consequuntur officia iure delectus eaque. Soluta, dolor quia placeat aliquam optio dolorum quaerat recusandae officia error minima , et veniam rerum magnam eos voluptates cum quod voluptatem saepe.</p>
           </div>
           <div className="section">
             <h1>Our Mission</h1>
